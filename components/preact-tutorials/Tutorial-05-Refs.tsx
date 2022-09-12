@@ -1,4 +1,4 @@
-import { render, Component, createRef } from 'preact';
+import { Component, createRef } from 'preact';
 import { useRef } from 'preact/hooks';
 
 /// Function Component
