@@ -1,0 +1,1 @@
+Practice concepts from the preact-tutorials at https://preactjs.com/tutorial/. Slight modifications are made to conform with deno/typescript/fresh.
