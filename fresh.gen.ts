@@ -4,14 +4,18 @@
 
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/index.tsx";
-import * as $$0 from "./islands/preact-tutorials.tsx";
+import * as $1 from "./routes/progress-bar.tsx";
+import * as $$0 from "./islands/neomorphism.tsx";
+import * as $$1 from "./islands/preact-tutorials.tsx";
 
 const manifest = {
   routes: {
     "./routes/index.tsx": $0,
+    "./routes/progress-bar.tsx": $1,
   },
   islands: {
-    "./islands/preact-tutorials.tsx": $$0,
+    "./islands/neomorphism.tsx": $$0,
+    "./islands/preact-tutorials.tsx": $$1,
   },
   baseUrl: import.meta.url,
   config,

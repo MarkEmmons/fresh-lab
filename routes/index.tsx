@@ -1,4 +1,4 @@
-import App from "../islands/preact-tutorials.tsx"
+import App from "../islands/preact-tutorials.tsx";
 
 export default function Home() {
 	return (
